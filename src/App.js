@@ -1,13 +1,13 @@
 import Board from './components/Board'
-import './App.css';
+import  './styles/root.scss'
 import React from 'react'
 
  const App=()=> {
   return (
-    <>
+    <div className='app'>
     
       <Board/>
-    </>
+    </div>
   )
 }
 
